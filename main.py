@@ -2,7 +2,7 @@ import openai
 import pyttsx3
 from configs.voice import botVoz
 from configs.gpt_config import gpt_informations
-from configs.gpt_config import get_gpt_key
+from key.key import get_gpt_key
 import speech_recognition as sr
 
 
